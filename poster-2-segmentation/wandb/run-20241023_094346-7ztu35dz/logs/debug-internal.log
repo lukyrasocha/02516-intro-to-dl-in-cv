@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:43:47.02390928+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:43:47.023926053+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_094346-7ztu35dz/logs/debug-core.log"}
+{"time":"2024-10-23T09:43:47.135097083+02:00","level":"INFO","msg":"created new stream","id":"7ztu35dz"}
+{"time":"2024-10-23T09:43:47.135136739+02:00","level":"INFO","msg":"stream: started","id":"7ztu35dz"}
+{"time":"2024-10-23T09:43:47.135178079+02:00","level":"INFO","msg":"sender: started","stream_id":"7ztu35dz"}
+{"time":"2024-10-23T09:43:47.135145081+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7ztu35dz"}}
+{"time":"2024-10-23T09:43:47.135177961+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"7ztu35dz"}}
+{"time":"2024-10-23T09:43:47.467297196+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:44:27.765064149+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:44:27.76596154+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:44:28.729158874+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.634280673}],"total_operations":1}}
+{"time":"2024-10-23T09:44:30.540650846+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:44:32.132250915+02:00","level":"INFO","msg":"stream: closing","id":"7ztu35dz"}
+{"time":"2024-10-23T09:44:32.132405776+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"7ztu35dz"}}
+{"time":"2024-10-23T09:44:32.132421765+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7ztu35dz"}}
+{"time":"2024-10-23T09:44:32.132434187+02:00","level":"INFO","msg":"sender: closed","stream_id":"7ztu35dz"}
+{"time":"2024-10-23T09:44:32.133786168+02:00","level":"INFO","msg":"stream: closed","id":"7ztu35dz"}

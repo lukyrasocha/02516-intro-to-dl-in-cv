@@ -78,7 +78,7 @@ display_random_images_and_masks(drive_train_dataset, figname="drive_random.png",
 logger.success("Saved example images and masks to 'figures'")
 
 # Simple Encoder-Decoder on PH2
-""" 
+
 LEARNING_RATE = 0.001
 MAX_EPOCHS = 5
 loss_fn = bce_loss
@@ -124,7 +124,7 @@ logger.working_on("Training simple Encoder-Decoder on DRIVE")
 train_model(encdec_drive_model, drive_train_loader, drive_val_loader, loss_fn, optimizer, wandb_config=config, num_epochs= MAX_EPOCHS, device=DEVICE)
 visualize_predictions(encdec_drive_model, drive_train_loader, DEVICE, figname="drive_predictions.png", num_images=3)
 logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'")
- """
+
 
 # U-Net
 print("*" * 100)
@@ -184,7 +184,7 @@ logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'"
 # Evaluation
 
 with torch.no_grad():
-    UNetModel.eval()
+    encdec_ph2_model.eval()
 
     images, masks = next(iter(ph2_test_loader))
     
@@ -192,7 +192,7 @@ with torch.no_grad():
     masks = masks.to(DEVICE)
     
 
-    preds = torch.sigmoid(UNetModel(images))
+    preds = torch.sigmoid(encdec_ph2_model(images))
     predictions = (preds > 0.5).float()  
     
     dice_score = dice_overlap(predictions, masks)
