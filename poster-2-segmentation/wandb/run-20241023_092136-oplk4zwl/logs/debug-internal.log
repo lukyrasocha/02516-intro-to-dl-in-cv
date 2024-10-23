@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:21:36.759434759+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:21:36.759447258+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_092136-oplk4zwl/logs/debug-core.log"}
+{"time":"2024-10-23T09:21:36.871285553+02:00","level":"INFO","msg":"created new stream","id":"oplk4zwl"}
+{"time":"2024-10-23T09:21:36.871327557+02:00","level":"INFO","msg":"stream: started","id":"oplk4zwl"}
+{"time":"2024-10-23T09:21:36.871343404+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"oplk4zwl"}}
+{"time":"2024-10-23T09:21:36.871359754+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"oplk4zwl"}}
+{"time":"2024-10-23T09:21:36.871380676+02:00","level":"INFO","msg":"sender: started","stream_id":"oplk4zwl"}
+{"time":"2024-10-23T09:21:37.187461751+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:21:47.198085925+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:21:47.198651749+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:21:48.198652259+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.802806273,"subtasks":[{"desc":"wandb-job.json","runtime_seconds":0.04003385,"progress":"754B/754B"}]}],"total_operations":1}}
+{"time":"2024-10-23T09:21:49.319192432+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:21:50.606990986+02:00","level":"INFO","msg":"stream: closing","id":"oplk4zwl"}
+{"time":"2024-10-23T09:21:50.607003946+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"oplk4zwl"}}
+{"time":"2024-10-23T09:21:50.607017825+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"oplk4zwl"}}
+{"time":"2024-10-23T09:21:50.607078378+02:00","level":"INFO","msg":"sender: closed","stream_id":"oplk4zwl"}
+{"time":"2024-10-23T09:21:50.607854362+02:00","level":"INFO","msg":"stream: closed","id":"oplk4zwl"}

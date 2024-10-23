@@ -10,8 +10,9 @@ from models.train import train_model
 from models.models import EncDec
 from models.losses import bce_loss
 from models.models import DoubleConv, DownSample, UpSample, UNet
-from models.metrics import dice_overlap, IoU, accuracy, sensitivity, specificity
 
+from models.metrics import dice_overlap, IoU, accuracy, sensitivity, specificity
+import matplotlib.pyplot as plt
 
 
 
