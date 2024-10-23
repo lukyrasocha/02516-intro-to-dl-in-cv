@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:29:14.155003782+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:29:14.155021647+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_092914-gjwh2bbf/logs/debug-core.log"}
+{"time":"2024-10-23T09:29:14.268565837+02:00","level":"INFO","msg":"created new stream","id":"gjwh2bbf"}
+{"time":"2024-10-23T09:29:14.26860828+02:00","level":"INFO","msg":"stream: started","id":"gjwh2bbf"}
+{"time":"2024-10-23T09:29:14.268639754+02:00","level":"INFO","msg":"sender: started","stream_id":"gjwh2bbf"}
+{"time":"2024-10-23T09:29:14.268629517+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"gjwh2bbf"}}
+{"time":"2024-10-23T09:29:14.268622551+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gjwh2bbf"}}
+{"time":"2024-10-23T09:29:14.506451831+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:29:25.213011854+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:29:25.213667445+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:29:25.964919719+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:29:26.17667457+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.211567765}],"total_operations":1}}
+{"time":"2024-10-23T09:29:27.198322461+02:00","level":"INFO","msg":"stream: closing","id":"gjwh2bbf"}
+{"time":"2024-10-23T09:29:27.198506532+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"gjwh2bbf"}}
+{"time":"2024-10-23T09:29:27.198527914+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"gjwh2bbf"}}
+{"time":"2024-10-23T09:29:27.198537551+02:00","level":"INFO","msg":"sender: closed","stream_id":"gjwh2bbf"}
+{"time":"2024-10-23T09:29:27.199598163+02:00","level":"INFO","msg":"stream: closed","id":"gjwh2bbf"}

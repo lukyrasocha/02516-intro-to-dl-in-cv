@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:29:07.815160733+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:29:07.815173637+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_092907-pv4cpofa/logs/debug-core.log"}
+{"time":"2024-10-23T09:29:07.926415731+02:00","level":"INFO","msg":"created new stream","id":"pv4cpofa"}
+{"time":"2024-10-23T09:29:07.926448897+02:00","level":"INFO","msg":"stream: started","id":"pv4cpofa"}
+{"time":"2024-10-23T09:29:07.926459192+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pv4cpofa"}}
+{"time":"2024-10-23T09:29:07.926478891+02:00","level":"INFO","msg":"sender: started","stream_id":"pv4cpofa"}
+{"time":"2024-10-23T09:29:07.926463313+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"pv4cpofa"}}
+{"time":"2024-10-23T09:29:08.240851132+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:29:10.296399813+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:29:10.297070259+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:29:11.296887899+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.367026343,"progress":"695B/695B"}],"total_operations":1}}
+{"time":"2024-10-23T09:29:11.640450839+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:29:12.859985582+02:00","level":"INFO","msg":"stream: closing","id":"pv4cpofa"}
+{"time":"2024-10-23T09:29:12.860182067+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"pv4cpofa"}}
+{"time":"2024-10-23T09:29:12.860203477+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pv4cpofa"}}
+{"time":"2024-10-23T09:29:12.860215273+02:00","level":"INFO","msg":"sender: closed","stream_id":"pv4cpofa"}
+{"time":"2024-10-23T09:29:12.861212036+02:00","level":"INFO","msg":"stream: closed","id":"pv4cpofa"}

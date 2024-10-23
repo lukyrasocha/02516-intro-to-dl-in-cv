@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:28:52.896977566+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:28:52.896993666+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_092852-li6f3cor/logs/debug-core.log"}
+{"time":"2024-10-23T09:28:53.009916064+02:00","level":"INFO","msg":"created new stream","id":"li6f3cor"}
+{"time":"2024-10-23T09:28:53.009991189+02:00","level":"INFO","msg":"stream: started","id":"li6f3cor"}
+{"time":"2024-10-23T09:28:53.010028252+02:00","level":"INFO","msg":"sender: started","stream_id":"li6f3cor"}
+{"time":"2024-10-23T09:28:53.010005759+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"li6f3cor"}}
+{"time":"2024-10-23T09:28:53.010028317+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"li6f3cor"}}
+{"time":"2024-10-23T09:28:53.374630997+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:29:03.350614622+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:29:03.351340595+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:29:04.351136457+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.798620426,"subtasks":[{"desc":"wandb-job.json","runtime_seconds":0.044265988,"progress":"754B/754B"}]}],"total_operations":1}}
+{"time":"2024-10-23T09:29:05.540206033+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:29:06.76767568+02:00","level":"INFO","msg":"stream: closing","id":"li6f3cor"}
+{"time":"2024-10-23T09:29:06.767829478+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"li6f3cor"}}
+{"time":"2024-10-23T09:29:06.767846001+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"li6f3cor"}}
+{"time":"2024-10-23T09:29:06.767853846+02:00","level":"INFO","msg":"sender: closed","stream_id":"li6f3cor"}
+{"time":"2024-10-23T09:29:06.768809961+02:00","level":"INFO","msg":"stream: closed","id":"li6f3cor"}

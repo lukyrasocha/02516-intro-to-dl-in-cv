@@ -78,7 +78,7 @@ display_random_images_and_masks(drive_train_dataset, figname="drive_random.png",
 logger.success("Saved example images and masks to 'figures'")
 
 # Simple Encoder-Decoder on PH2
-
+""" 
 LEARNING_RATE = 0.001
 MAX_EPOCHS = 5
 loss_fn = bce_loss
@@ -150,7 +150,7 @@ config= {
     "loss_fn": "BinaryCrossEntropy",
     "optimizer": "Adam"
 }
-
+ """
 
 logger.working_on("Training simple UNet on PH2")
 train_model(UNetModel, ph2_train_loader, ph2_val_loader, loss_fn, optimizer,wandb_config=config, num_epochs=MAX_EPOCHS, device=DEVICE)
@@ -159,7 +159,7 @@ logger.success("Saved examples of predictions for UNet to 'figures'")
 
 # Simple UNet on DRIVE
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 5
+MAX_EPOCHS = 20
 loss_fn = bce_loss
 
 UNetModel = UNet(in_channels=3, num_classes=1)
@@ -184,14 +184,16 @@ logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'"
 # Evaluation
 
 with torch.no_grad():
-    
+    UNetModel.eval()
+
     images, masks = next(iter(ph2_test_loader))
     
     images = images.to(DEVICE)
     masks = masks.to(DEVICE)
     
-    predictions = UNetModel(images)
-    predictions = (torch.sigmoid(predictions) > 0.5).float()  
+
+    preds = torch.sigmoid(UNetModel(images))
+    predictions = (preds > 0.5).float()  
     
     dice_score = dice_overlap(predictions, masks)
     iou_score = IoU(predictions, masks)
@@ -206,26 +208,6 @@ with torch.no_grad():
     print(f"Sensitivity: {sensitivity_score:.4f}")
     print(f"Specificity: {specificity_score:.4f}")
 
-    plt.figure(figsize=(12, 4))
 
-    plt.subplot(1, 3, 1)
-    plt.imshow(images[0].cpu().permute(1, 2, 0).numpy())  # Permute for at få (H, W, C)
-    plt.title("Original Image")
-    plt.axis('off')
-
-
-    plt.subplot(1, 3, 2)
-    plt.imshow(masks[0, 0].cpu().numpy(), cmap='gray')  # Use masks[0, 0]
-    plt.title("True Mask")
-    plt.axis('off')
-
-
-    plt.subplot(1, 3, 3)
-    plt.imshow(predictions[0, 0].cpu().numpy(), cmap='gray')  # Use predictions[0, 0]
-    plt.title("Predicted Mask")
-    plt.axis('off')
-
-    plt.tight_layout()
-    plt.show()
 
 # Plots
