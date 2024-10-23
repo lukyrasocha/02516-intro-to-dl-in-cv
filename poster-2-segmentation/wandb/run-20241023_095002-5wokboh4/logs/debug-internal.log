@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:50:02.420409726+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:50:02.42042573+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_095002-5wokboh4/logs/debug-core.log"}
+{"time":"2024-10-23T09:50:02.532788469+02:00","level":"INFO","msg":"created new stream","id":"5wokboh4"}
+{"time":"2024-10-23T09:50:02.532842176+02:00","level":"INFO","msg":"stream: started","id":"5wokboh4"}
+{"time":"2024-10-23T09:50:02.532878279+02:00","level":"INFO","msg":"sender: started","stream_id":"5wokboh4"}
+{"time":"2024-10-23T09:50:02.532865392+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5wokboh4"}}
+{"time":"2024-10-23T09:50:02.532898079+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"5wokboh4"}}
+{"time":"2024-10-23T09:50:02.874181512+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:50:12.429965562+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:50:12.430645665+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:50:13.430569103+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.824072854,"subtasks":[{"desc":"wandb-job.json","runtime_seconds":0.060069237,"progress":"754B/754B"}]}],"total_operations":1}}
+{"time":"2024-10-23T09:50:14.57522937+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:50:15.87433867+02:00","level":"INFO","msg":"stream: closing","id":"5wokboh4"}
+{"time":"2024-10-23T09:50:15.874523629+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"5wokboh4"}}
+{"time":"2024-10-23T09:50:15.874544392+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"5wokboh4"}}
+{"time":"2024-10-23T09:50:15.874552525+02:00","level":"INFO","msg":"sender: closed","stream_id":"5wokboh4"}
+{"time":"2024-10-23T09:50:15.87554642+02:00","level":"INFO","msg":"stream: closed","id":"5wokboh4"}

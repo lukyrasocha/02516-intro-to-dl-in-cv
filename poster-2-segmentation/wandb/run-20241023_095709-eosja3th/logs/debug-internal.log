@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:57:09.161209122+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:57:09.161221975+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_095709-eosja3th/logs/debug-core.log"}
+{"time":"2024-10-23T09:57:09.274000459+02:00","level":"INFO","msg":"created new stream","id":"eosja3th"}
+{"time":"2024-10-23T09:57:09.274047224+02:00","level":"INFO","msg":"stream: started","id":"eosja3th"}
+{"time":"2024-10-23T09:57:09.274061461+02:00","level":"INFO","msg":"sender: started","stream_id":"eosja3th"}
+{"time":"2024-10-23T09:57:09.274056626+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"eosja3th"}}
+{"time":"2024-10-23T09:57:09.274064254+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"eosja3th"}}
+{"time":"2024-10-23T09:57:09.539518464+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:57:18.040254617+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:57:18.041050356+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:57:18.927554296+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:57:19.040852832+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.113067663}],"total_operations":1}}
+{"time":"2024-10-23T09:57:20.162805368+02:00","level":"INFO","msg":"stream: closing","id":"eosja3th"}
+{"time":"2024-10-23T09:57:20.162964794+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"eosja3th"}}
+{"time":"2024-10-23T09:57:20.162982068+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"eosja3th"}}
+{"time":"2024-10-23T09:57:20.163004957+02:00","level":"INFO","msg":"sender: closed","stream_id":"eosja3th"}
+{"time":"2024-10-23T09:57:20.164098215+02:00","level":"INFO","msg":"stream: closed","id":"eosja3th"}

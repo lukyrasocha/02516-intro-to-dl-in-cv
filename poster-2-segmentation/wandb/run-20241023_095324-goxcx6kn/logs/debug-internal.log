@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:53:24.818773611+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:53:24.81878581+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_095324-goxcx6kn/logs/debug-core.log"}
+{"time":"2024-10-23T09:53:24.933475646+02:00","level":"INFO","msg":"created new stream","id":"goxcx6kn"}
+{"time":"2024-10-23T09:53:24.933511202+02:00","level":"INFO","msg":"stream: started","id":"goxcx6kn"}
+{"time":"2024-10-23T09:53:24.933538612+02:00","level":"INFO","msg":"sender: started","stream_id":"goxcx6kn"}
+{"time":"2024-10-23T09:53:24.933546685+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"goxcx6kn"}}
+{"time":"2024-10-23T09:53:24.933538695+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"goxcx6kn"}}
+{"time":"2024-10-23T09:53:25.918625+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:54:07.022030825+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:54:07.022732639+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:54:07.985026526+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.609556662,"progress":"158B/158B"},{"desc":"uploading output.log","runtime_seconds":0.457209911,"progress":"2.8KB/2.8KB"},{"desc":"uploading config.yaml","runtime_seconds":0.457193595,"progress":"676B/676B"}],"total_operations":3}}
+{"time":"2024-10-23T09:54:08.238991289+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:54:09.493282417+02:00","level":"INFO","msg":"stream: closing","id":"goxcx6kn"}
+{"time":"2024-10-23T09:54:09.493451511+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"goxcx6kn"}}
+{"time":"2024-10-23T09:54:09.493472498+02:00","level":"INFO","msg":"sender: closed","stream_id":"goxcx6kn"}
+{"time":"2024-10-23T09:54:09.49346899+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"goxcx6kn"}}
+{"time":"2024-10-23T09:54:09.494659643+02:00","level":"INFO","msg":"stream: closed","id":"goxcx6kn"}

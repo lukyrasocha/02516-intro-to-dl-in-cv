@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:50:16.890884739+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:50:16.890901871+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_095016-m1hycw6u/logs/debug-core.log"}
+{"time":"2024-10-23T09:50:17.00533717+02:00","level":"INFO","msg":"created new stream","id":"m1hycw6u"}
+{"time":"2024-10-23T09:50:17.005371917+02:00","level":"INFO","msg":"stream: started","id":"m1hycw6u"}
+{"time":"2024-10-23T09:50:17.005400581+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"m1hycw6u"}}
+{"time":"2024-10-23T09:50:17.005392725+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m1hycw6u"}}
+{"time":"2024-10-23T09:50:17.005415277+02:00","level":"INFO","msg":"sender: started","stream_id":"m1hycw6u"}
+{"time":"2024-10-23T09:50:17.292321263+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:50:19.234953052+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:50:19.235667728+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:50:19.991807933+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:50:20.211074679+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-23T09:50:21.22635514+02:00","level":"INFO","msg":"stream: closing","id":"m1hycw6u"}
+{"time":"2024-10-23T09:50:21.226565204+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"m1hycw6u"}}
+{"time":"2024-10-23T09:50:21.226581953+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m1hycw6u"}}
+{"time":"2024-10-23T09:50:21.226593036+02:00","level":"INFO","msg":"sender: closed","stream_id":"m1hycw6u"}
+{"time":"2024-10-23T09:50:21.227687542+02:00","level":"INFO","msg":"stream: closed","id":"m1hycw6u"}
