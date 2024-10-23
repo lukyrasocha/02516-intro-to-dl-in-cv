@@ -79,7 +79,7 @@ logger.success("Saved example images and masks to 'figures'")
 # Simple Encoder-Decoder on PH2
 
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 20
+MAX_EPOCHS = 5
 loss_fn = bce_loss
 
 
@@ -103,7 +103,7 @@ logger.success("Saved examples of predictions for Enc-Dec of PH2 to 'figures'")
 
 # Simple Encoder-Decoder on DRIVE
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 20
+MAX_EPOCHS = 5
 loss_fn = bce_loss
 
 encdec_drive_model = EncDec(input_channels=3, output_channels=1)
@@ -133,7 +133,7 @@ print("*" * 100)
 # Simple Encoder-Decoder on UNet
 
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 20
+MAX_EPOCHS = 5
 loss_fn = bce_loss
 
 UNetModel = UNet(in_channels=3, num_classes=1)
@@ -158,7 +158,7 @@ logger.success("Saved examples of predictions for UNet to 'figures'")
 
 # Simple UNet on DRIVE
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 20
+MAX_EPOCHS = 5
 loss_fn = bce_loss
 
 UNetModel = UNet(in_channels=3, num_classes=1)
@@ -186,7 +186,6 @@ with torch.no_grad():
     
     images, masks = next(iter(ph2_test_loader))
     
-    
     images = images.to(DEVICE)
     masks = masks.to(DEVICE)
     
@@ -205,5 +204,25 @@ with torch.no_grad():
     print(f"Accuracy: {accuracy_score:.4f}")
     print(f"Sensitivity: {sensitivity_score:.4f}")
     print(f"Specificity: {specificity_score:.4f}")
+
+    plt.figure(figsize=(12, 4))
+
+    plt.subplot(1, 3, 1)
+    plt.imshow(images[0].cpu().permute(1, 2, 0).numpy())  # Permute for at få (H, W, C)
+    plt.title("Original Image")
+    plt.axis('off')
+
+    plt.subplot(1, 3, 2)
+    plt.imshow(masks[0].cpu().numpy(), cmap='gray')
+    plt.title("True Mask")
+    plt.axis('off')
+
+    plt.subplot(1, 3, 3)
+    plt.imshow(predictions[0].cpu().numpy(), cmap='gray')
+    plt.title("Predicted Mask")
+    plt.axis('off')
+
+    plt.tight_layout()
+    plt.show()
 
 # Plots
