@@ -213,13 +213,15 @@ with torch.no_grad():
     plt.title("Original Image")
     plt.axis('off')
 
+
     plt.subplot(1, 3, 2)
-    plt.imshow(masks[0].cpu().numpy(), cmap='gray')
+    plt.imshow(masks[0, 0].cpu().numpy(), cmap='gray')  # Use masks[0, 0]
     plt.title("True Mask")
     plt.axis('off')
 
+
     plt.subplot(1, 3, 3)
-    plt.imshow(predictions[0].cpu().numpy(), cmap='gray')
+    plt.imshow(predictions[0, 0].cpu().numpy(), cmap='gray')  # Use predictions[0, 0]
     plt.title("Predicted Mask")
     plt.axis('off')
 

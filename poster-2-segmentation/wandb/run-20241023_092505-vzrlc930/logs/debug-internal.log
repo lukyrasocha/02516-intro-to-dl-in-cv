@@ -1,0 +1,17 @@
+{"time":"2024-10-23T09:25:05.963023875+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T09:25:05.963036371+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_092505-vzrlc930/logs/debug-core.log"}
+{"time":"2024-10-23T09:25:06.074663748+02:00","level":"INFO","msg":"created new stream","id":"vzrlc930"}
+{"time":"2024-10-23T09:25:06.074742722+02:00","level":"INFO","msg":"stream: started","id":"vzrlc930"}
+{"time":"2024-10-23T09:25:06.074747915+02:00","level":"INFO","msg":"sender: started","stream_id":"vzrlc930"}
+{"time":"2024-10-23T09:25:06.074746494+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vzrlc930"}}
+{"time":"2024-10-23T09:25:06.07472691+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vzrlc930"}}
+{"time":"2024-10-23T09:25:06.415944453+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T09:25:16.124273883+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T09:25:16.124827721+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T09:25:17.124858098+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.841325412},{"desc":"uploading config.yaml","runtime_seconds":0.649593246,"progress":"693B/693B"}],"total_operations":2}}
+{"time":"2024-10-23T09:25:18.335758322+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T09:25:19.578454396+02:00","level":"INFO","msg":"stream: closing","id":"vzrlc930"}
+{"time":"2024-10-23T09:25:19.578643858+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"vzrlc930"}}
+{"time":"2024-10-23T09:25:19.578664035+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vzrlc930"}}
+{"time":"2024-10-23T09:25:19.578670763+02:00","level":"INFO","msg":"sender: closed","stream_id":"vzrlc930"}
+{"time":"2024-10-23T09:25:19.579595207+02:00","level":"INFO","msg":"stream: closed","id":"vzrlc930"}
