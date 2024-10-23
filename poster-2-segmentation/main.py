@@ -124,7 +124,7 @@ logger.working_on("Training simple Encoder-Decoder on DRIVE")
 train_model(encdec_drive_model, drive_train_loader, drive_val_loader, loss_fn, optimizer, wandb_config=config, num_epochs= MAX_EPOCHS, device=DEVICE)
 visualize_predictions(encdec_drive_model, drive_train_loader, DEVICE, figname="drive_predictions.png", num_images=3)
 logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'")
-  
+ """
 
 # U-Net
 print("*" * 100)
@@ -134,7 +134,7 @@ print("*" * 100)
 # Simple Encoder-Decoder on UNet
 
 LEARNING_RATE = 0.001
-MAX_EPOCHS = 5
+MAX_EPOCHS = 20
 loss_fn = bce_loss
 
 UNetModel = UNet(in_channels=3, num_classes=1)
@@ -150,7 +150,7 @@ config= {
     "loss_fn": "BinaryCrossEntropy",
     "optimizer": "Adam"
 }
- """
+
 
 logger.working_on("Training simple UNet on PH2")
 train_model(UNetModel, ph2_train_loader, ph2_val_loader, loss_fn, optimizer,wandb_config=config, num_epochs=MAX_EPOCHS, device=DEVICE)
