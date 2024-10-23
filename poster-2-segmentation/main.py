@@ -182,78 +182,7 @@ logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'"
 
 
 # Evaluation
-import torch
-import matplotlib.pyplot as plt
 
-# Definér en funktion til at udregne metrics og vise billede og maske
-def evaluate_and_display(dataset, model, index, device):
-    """
-    Evaluate the model on a specific image and display the image, its mask, and predictions.
-
-    Args:
-        dataset: The dataset containing images and masks.
-        model: The trained model.
-        index: The index of the image/mask pair to evaluate and display.
-        device: The device (CPU or GPU) to perform calculations on.
-    """
-    model.eval()  # Sæt modellen i evalueringsmode
-
-    # Hent det specifikke billede og maske
-    image, mask = dataset[index]
-    
-    # Flyt data til den valgte enhed
-    image = image.unsqueeze(0).to(device)  # Tilføj batch dimension
-    mask = mask.unsqueeze(0).to(device)    # Tilføj batch dimension
-    
-    # Få forudsigelser fra modellen
-    with torch.no_grad():
-        preds = torch.sigmoid(model(image))
-        predictions = (preds > 0.5).float()  # Binær thresholding
-    
-    # Beregn metrics
-    dice_score = dice_overlap(predictions, mask)
-    iou_score = IoU(predictions, mask)
-    accuracy_score = accuracy(predictions, mask)
-    sensitivity_score = sensitivity(predictions, mask)
-    specificity_score = specificity(predictions, mask)
-    
-    # Udskriv resultater
-    print(f"DICE Score: {dice_score:.4f}")
-    print(f"IoU Score: {iou_score:.4f}")
-    print(f"Accuracy: {accuracy_score:.4f}")
-    print(f"Sensitivity: {sensitivity_score:.4f}")
-    print(f"Specificity: {specificity_score:.4f}")
-
-    # Plotte billedet og masken
-    plt.figure(figsize=(12, 4))
-
-    # Original billede
-    plt.subplot(1, 3, 1)
-    plt.imshow(image.squeeze().cpu().permute(1, 2, 0).numpy())  # CxHxW til HxWxC
-    plt.title(f"Original Image {index}")
-    plt.axis('off')
-
-    # Sand maske
-    plt.subplot(1, 3, 2)
-    plt.imshow(mask.squeeze().cpu().numpy(), cmap='gray')  # Vis som gråskala
-    plt.title(f"True Mask {index}")
-    plt.axis('off')
-
-    # Forudsigte maske
-    plt.subplot(1, 3, 3)
-    plt.imshow(predictions.squeeze().cpu().numpy(), cmap='gray')  # Vis som gråskala
-    plt.title(f"Predicted Mask {index}")
-    plt.axis('off')
-
-    plt.tight_layout()
-    plt.show()
-
-# Brug funktionen til at evaluere og vise et bestemt billede
-index_to_evaluate = 0  # Angiv hvilket billede du vil evaluere
-evaluate_and_display(ph2_test_dataset, encdec_ph2_model, index_to_evaluate, DEVICE)
-
-
-""" 
 with torch.no_grad():
     model = encdec_ph2_model.eval()
 
@@ -277,6 +206,6 @@ with torch.no_grad():
     print(f"Accuracy: {accuracy_score:.4f}")
     print(f"Sensitivity: {sensitivity_score:.4f}")
     print(f"Specificity: {specificity_score:.4f}")
- """
+
 
 # Plots

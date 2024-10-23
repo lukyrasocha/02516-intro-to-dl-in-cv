@@ -1,0 +1,17 @@
+{"time":"2024-10-23T10:08:33.502378857+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T10:08:33.50239194+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_100833-9besbxie/logs/debug-core.log"}
+{"time":"2024-10-23T10:08:33.614549937+02:00","level":"INFO","msg":"created new stream","id":"9besbxie"}
+{"time":"2024-10-23T10:08:33.614589841+02:00","level":"INFO","msg":"stream: started","id":"9besbxie"}
+{"time":"2024-10-23T10:08:33.614601443+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"9besbxie"}}
+{"time":"2024-10-23T10:08:33.61461631+02:00","level":"INFO","msg":"sender: started","stream_id":"9besbxie"}
+{"time":"2024-10-23T10:08:33.61461819+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9besbxie"}}
+{"time":"2024-10-23T10:08:34.104124094+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:08:36.200969146+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:08:36.201637435+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:08:36.971619442+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:08:37.175205293+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-23T10:08:38.195140648+02:00","level":"INFO","msg":"stream: closing","id":"9besbxie"}
+{"time":"2024-10-23T10:08:38.195293687+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"9besbxie"}}
+{"time":"2024-10-23T10:08:38.195312929+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"9besbxie"}}
+{"time":"2024-10-23T10:08:38.195369466+02:00","level":"INFO","msg":"sender: closed","stream_id":"9besbxie"}
+{"time":"2024-10-23T10:08:38.196605776+02:00","level":"INFO","msg":"stream: closed","id":"9besbxie"}

@@ -1,0 +1,17 @@
+{"time":"2024-10-23T10:05:15.701314589+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-23T10:05:15.701329229+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241023_100515-vsp65ztj/logs/debug-core.log"}
+{"time":"2024-10-23T10:05:15.814860646+02:00","level":"INFO","msg":"created new stream","id":"vsp65ztj"}
+{"time":"2024-10-23T10:05:15.814933808+02:00","level":"INFO","msg":"stream: started","id":"vsp65ztj"}
+{"time":"2024-10-23T10:05:15.814951126+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vsp65ztj"}}
+{"time":"2024-10-23T10:05:15.814976325+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"vsp65ztj"}}
+{"time":"2024-10-23T10:05:15.814971914+02:00","level":"INFO","msg":"sender: started","stream_id":"vsp65ztj"}
+{"time":"2024-10-23T10:05:16.077799116+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T10:05:18.166806223+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T10:05:18.167319706+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T10:05:19.167342398+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-23T10:05:19.182504393+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T10:05:20.397400056+02:00","level":"INFO","msg":"stream: closing","id":"vsp65ztj"}
+{"time":"2024-10-23T10:05:20.397570855+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"vsp65ztj"}}
+{"time":"2024-10-23T10:05:20.397603563+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vsp65ztj"}}
+{"time":"2024-10-23T10:05:20.397657862+02:00","level":"INFO","msg":"sender: closed","stream_id":"vsp65ztj"}
+{"time":"2024-10-23T10:05:20.39854753+02:00","level":"INFO","msg":"stream: closed","id":"vsp65ztj"}
