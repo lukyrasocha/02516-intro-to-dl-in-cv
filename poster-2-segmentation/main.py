@@ -10,6 +10,7 @@ from models.train import train_model
 from models.models import EncDec
 from models.losses import bce_loss
 from models.models import DoubleConv, DownSample, UpSample, UNet
+from models.metrics import dice_overlap, IoU, accuracy, sensitivity, specificity
 
 
 
@@ -180,5 +181,29 @@ logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'"
 
 
 # Evaluation
+
+with torch.no_grad():
+    
+    images, masks = next(iter(ph2_test_loader))
+    
+    
+    images = images.to(DEVICE)
+    masks = masks.to(DEVICE)
+    
+    predictions = UNetModel(images)
+    predictions = (torch.sigmoid(predictions) > 0.5).float()  
+    
+    dice_score = dice_overlap(predictions, masks)
+    iou_score = IoU(predictions, masks)
+    accuracy_score = accuracy(predictions, masks)
+    sensitivity_score = sensitivity(predictions, masks)
+    specificity_score = specificity(predictions, masks)
+    
+    # Udskriv resultater
+    print(f"DICE Score: {dice_score:.4f}")
+    print(f"IoU Score: {iou_score:.4f}")
+    print(f"Accuracy: {accuracy_score:.4f}")
+    print(f"Sensitivity: {sensitivity_score:.4f}")
+    print(f"Specificity: {specificity_score:.4f}")
 
 # Plots
