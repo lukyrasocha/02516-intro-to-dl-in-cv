@@ -1,0 +1,17 @@
+{"time":"2024-10-24T12:07:38.580925339+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T12:07:38.580951935+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241024_120738-r797dkdb/logs/debug-core.log"}
+{"time":"2024-10-24T12:07:38.692187637+02:00","level":"INFO","msg":"created new stream","id":"r797dkdb"}
+{"time":"2024-10-24T12:07:38.692227695+02:00","level":"INFO","msg":"stream: started","id":"r797dkdb"}
+{"time":"2024-10-24T12:07:38.692254997+02:00","level":"INFO","msg":"sender: started","stream_id":"r797dkdb"}
+{"time":"2024-10-24T12:07:38.692262104+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"r797dkdb"}}
+{"time":"2024-10-24T12:07:38.692241625+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"r797dkdb"}}
+{"time":"2024-10-24T12:07:39.005114849+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T12:07:48.491400043+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T12:07:48.492090666+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T12:07:49.491904818+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.781606,"subtasks":[{"desc":"requirements.frozen.txt","runtime_seconds":0.007580298,"progress":"2.3KB/2.3KB"},{"desc":"wandb-job.json","runtime_seconds":0.007572718,"progress":"754B/754B"}]}],"total_operations":1}}
+{"time":"2024-10-24T12:07:51.702090083+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T12:07:52.920429399+02:00","level":"INFO","msg":"stream: closing","id":"r797dkdb"}
+{"time":"2024-10-24T12:07:52.920596323+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"r797dkdb"}}
+{"time":"2024-10-24T12:07:52.920609389+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"r797dkdb"}}
+{"time":"2024-10-24T12:07:52.920618748+02:00","level":"INFO","msg":"sender: closed","stream_id":"r797dkdb"}
+{"time":"2024-10-24T12:07:52.921432499+02:00","level":"INFO","msg":"stream: closed","id":"r797dkdb"}

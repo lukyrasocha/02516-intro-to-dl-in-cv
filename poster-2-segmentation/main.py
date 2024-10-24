@@ -70,9 +70,9 @@ image, mask = drive_train_dataset[1]
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
 
-output_dir = 'Add_points'
-image_tensor_path = os.path.join(output_dir, 'image_tensor.pt')
-mask_tensor_path = os.path.join(output_dir, 'mask_tensor.pt')
+
+image_tensor_path = 'Add_points/image_tensor.pt'
+mask_tensor_path = 'Add_points/mask_tensor.pt'
 torch.save(image, image_tensor_path) 
 torch.save(mask, mask_tensor_path)    
 
