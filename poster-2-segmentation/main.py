@@ -40,7 +40,7 @@ print('PH2 Train Dataset size:', len(ph2_train_dataset))
 print('PH2 Validation Dataset size:', len(ph2_val_dataset))
 print('PH2 Test Dataset size:', len(ph2_test_dataset))
 
-image, mask = ph2_train_dataset[1]
+image, mask = ph2_train_dataset[2]
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
 
