@@ -43,6 +43,7 @@ print('PH2 Test Dataset size:', len(ph2_test_dataset))
 image, mask = ph2_train_dataset[1]
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
+
 assert len(np.unique(mask.numpy()[0])) == 2, "mask needs to have binary values (0,1)"
 
 # Data loaders
@@ -68,6 +69,14 @@ drive_test_loader = torch.utils.data.DataLoader(drive_test_dataset, batch_size=3
 image, mask = drive_train_dataset[1]
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
+
+output_dir = 'Add_points'
+image_tensor_path = os.path.join(output_dir, 'image_tensor.pt')
+mask_tensor_path = os.path.join(output_dir, 'mask_tensor.pt')
+torch.save(image, image_tensor_path) 
+torch.save(mask, mask_tensor_path)    
+
+
 assert len(np.unique(mask.numpy()[0])) == 2, "mask needs to have binary values (0,1)"
 
 logger.success("Data loaded")
@@ -184,7 +193,7 @@ logger.success("Saved examples of predictions for Enc-Dec of DRIVE to 'figures'"
 # Evaluation
 
 with torch.no_grad():
-    model = encdec_ph2_model.eval()
+    model = UNetModel.eval()
 
     images, masks = next(iter(ph2_test_loader))
     

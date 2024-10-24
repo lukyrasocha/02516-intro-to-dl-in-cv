@@ -1,0 +1,12 @@
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m1[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m1.5808[0m, Validation Loss: [1;36m0.6576[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m2[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.6602[0m, Validation Loss: [1;36m0.6700[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m3[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.6639[0m, Validation Loss: [1;36m0.6656[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m4[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.6511[0m, Validation Loss: [1;36m0.6340[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m5[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.6056[0m, Validation Loss: [1;36m0.5936[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m6[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.5409[0m, Validation Loss: [1;36m0.5220[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m7[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.4807[0m, Validation Loss: [1;36m5.4322[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m8[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m1.0263[0m, Validation Loss: [1;36m0.4699[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m9[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.4714[0m, Validation Loss: [1;36m0.4549[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m10[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.4755[0m, Validation Loss: [1;36m0.4857[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m11[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.4501[0m, Validation Loss: [1;36m0.4077[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m12[0m/[1;36m20[0m[1m][0m, Training Loss: [1;36m0.4127[0m, Validation Loss: [1;36m0.3637[0m

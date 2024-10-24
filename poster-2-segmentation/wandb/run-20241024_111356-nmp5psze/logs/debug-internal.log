@@ -1,0 +1,17 @@
+{"time":"2024-10-24T11:13:56.345560822+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T11:13:56.345572777+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241024_111356-nmp5psze/logs/debug-core.log"}
+{"time":"2024-10-24T11:13:56.459195799+02:00","level":"INFO","msg":"created new stream","id":"nmp5psze"}
+{"time":"2024-10-24T11:13:56.459227432+02:00","level":"INFO","msg":"stream: started","id":"nmp5psze"}
+{"time":"2024-10-24T11:13:56.459246815+02:00","level":"INFO","msg":"sender: started","stream_id":"nmp5psze"}
+{"time":"2024-10-24T11:13:56.459240365+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nmp5psze"}}
+{"time":"2024-10-24T11:13:56.459253844+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nmp5psze"}}
+{"time":"2024-10-24T11:13:56.729462472+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T11:14:35.759651243+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T11:14:35.760244811+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T11:14:36.747792331+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T11:14:36.760168047+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.012225158}],"total_operations":1}}
+{"time":"2024-10-24T11:14:37.987946726+02:00","level":"INFO","msg":"stream: closing","id":"nmp5psze"}
+{"time":"2024-10-24T11:14:37.988132879+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nmp5psze"}}
+{"time":"2024-10-24T11:14:37.988158988+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nmp5psze"}}
+{"time":"2024-10-24T11:14:37.988204543+02:00","level":"INFO","msg":"sender: closed","stream_id":"nmp5psze"}
+{"time":"2024-10-24T11:14:37.98924092+02:00","level":"INFO","msg":"stream: closed","id":"nmp5psze"}

@@ -1,0 +1,17 @@
+{"time":"2024-10-24T11:08:52.595967427+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T11:08:52.595980905+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241024_110852-takuv86e/logs/debug-core.log"}
+{"time":"2024-10-24T11:08:52.70777643+02:00","level":"INFO","msg":"created new stream","id":"takuv86e"}
+{"time":"2024-10-24T11:08:52.707795361+02:00","level":"INFO","msg":"stream: started","id":"takuv86e"}
+{"time":"2024-10-24T11:08:52.707813228+02:00","level":"INFO","msg":"sender: started","stream_id":"takuv86e"}
+{"time":"2024-10-24T11:08:52.707822201+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"takuv86e"}}
+{"time":"2024-10-24T11:08:52.707810327+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"takuv86e"}}
+{"time":"2024-10-24T11:08:53.018529724+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T11:08:54.945464251+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T11:08:54.946076665+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T11:08:55.697343261+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T11:08:55.94584051+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.248327078}],"total_operations":1}}
+{"time":"2024-10-24T11:08:57.111280802+02:00","level":"INFO","msg":"stream: closing","id":"takuv86e"}
+{"time":"2024-10-24T11:08:57.111418011+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"takuv86e"}}
+{"time":"2024-10-24T11:08:57.111431074+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"takuv86e"}}
+{"time":"2024-10-24T11:08:57.111434493+02:00","level":"INFO","msg":"sender: closed","stream_id":"takuv86e"}
+{"time":"2024-10-24T11:08:57.112292285+02:00","level":"INFO","msg":"stream: closed","id":"takuv86e"}

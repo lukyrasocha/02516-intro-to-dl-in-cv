@@ -13,9 +13,13 @@ def reshape_input(y_pred, y_real):
 
 
 def dice_overlap(y_pred, y_real):
-
+    print(f'The shape of y_pred {y_pred.shape}')
+    print(f'The shape of y_real {y_real.shape}')
+    
     if y_pred.shape != y_real.shape:
+        print(f'The shape of y_pred {y_pred.shape}')
         y_real = reshape_input(y_pred, y_real)
+        print(f'The shape of y_pred {y_pred.shape}')
 
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)

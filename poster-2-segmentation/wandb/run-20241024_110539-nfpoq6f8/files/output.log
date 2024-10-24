@@ -1,0 +1,5 @@
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m1[0m/[1;36m5[0m[1m][0m, Training Loss: [1;36m2.0444[0m, Validation Loss: [1;36m0.6591[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m2[0m/[1;36m5[0m[1m][0m, Training Loss: [1;36m0.6624[0m, Validation Loss: [1;36m0.6392[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m3[0m/[1;36m5[0m[1m][0m, Training Loss: [1;36m0.6552[0m, Validation Loss: [1;36m0.6896[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m4[0m/[1;36m5[0m[1m][0m, Training Loss: [1;36m0.6704[0m, Validation Loss: [1;36m0.9431[0m
+ℹ [1;34mINFO[0m: Epoch [1m[[0m[1;36m5[0m/[1;36m5[0m[1m][0m, Training Loss: [1;36m0.6727[0m, Validation Loss: [1;36m0.6295[0m

@@ -1,0 +1,17 @@
+{"time":"2024-10-24T11:12:02.260313257+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T11:12:02.260326262+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241024_111202-mc5ku0sl/logs/debug-core.log"}
+{"time":"2024-10-24T11:12:02.372119004+02:00","level":"INFO","msg":"created new stream","id":"mc5ku0sl"}
+{"time":"2024-10-24T11:12:02.372152942+02:00","level":"INFO","msg":"stream: started","id":"mc5ku0sl"}
+{"time":"2024-10-24T11:12:02.372183994+02:00","level":"INFO","msg":"sender: started","stream_id":"mc5ku0sl"}
+{"time":"2024-10-24T11:12:02.372203395+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"mc5ku0sl"}}
+{"time":"2024-10-24T11:12:02.37218015+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mc5ku0sl"}}
+{"time":"2024-10-24T11:12:02.773690626+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T11:12:12.000276161+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T11:12:12.000849815+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T11:12:12.769600161+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T11:12:12.994583232+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-10-24T11:12:14.01910499+02:00","level":"INFO","msg":"stream: closing","id":"mc5ku0sl"}
+{"time":"2024-10-24T11:12:14.019249784+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"mc5ku0sl"}}
+{"time":"2024-10-24T11:12:14.019272372+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mc5ku0sl"}}
+{"time":"2024-10-24T11:12:14.019323136+02:00","level":"INFO","msg":"sender: closed","stream_id":"mc5ku0sl"}
+{"time":"2024-10-24T11:12:14.036777345+02:00","level":"INFO","msg":"stream: closed","id":"mc5ku0sl"}
