@@ -1,5 +1,22 @@
 
+def reshape_input(y_pred, y_real):
+
+        _, _, y_pred_height, y_pred_width = y_pred.shape
+        _, _, y_real_height, y_real_width = y_real.shape
+
+        diff_height = (y_real_height - y_pred_height) // 2
+        diff_width = (y_real_width - y_pred_width) // 2
+
+        y_real = y_real[:, :, diff_height:y_real_height-diff_height, diff_width:y_real_width-diff_width]
+
+        return y_real
+
+
 def dice_overlap(y_pred, y_real):
+
+    if y_pred.shape != y_real.shape:
+        y_real = reshape_input(y_pred, y_real)
+
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)
     
@@ -11,6 +28,9 @@ def dice_overlap(y_pred, y_real):
 
 # Intersection over Union (IoU)
 def IoU(y_pred, y_real, epsilon=1e-6):
+
+    if y_pred.shape != y_real.shape:
+        y_real = reshape_input(y_pred, y_real)
 
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)
@@ -24,6 +44,9 @@ def IoU(y_pred, y_real, epsilon=1e-6):
 
 def accuracy(y_pred, y_real):
 
+    if y_pred.shape != y_real.shape:
+        y_real = reshape_input(y_pred, y_real)
+
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)
 
@@ -34,6 +57,9 @@ def accuracy(y_pred, y_real):
 
 
 def sensitivity(y_pred, y_real, epsilon=1e-6):
+
+    if y_pred.shape != y_real.shape:
+        y_real = reshape_input(y_pred, y_real)
 
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)
@@ -46,6 +72,9 @@ def sensitivity(y_pred, y_real, epsilon=1e-6):
     return sensitivity.item()  
 
 def specificity(y_pred, y_real, epsilon=1e-6):
+
+    if y_pred.shape != y_real.shape:
+        y_real = reshape_input(y_pred, y_real)
     
     pred = y_pred.contiguous().view(-1)
     target = y_real.contiguous().view(-1)
