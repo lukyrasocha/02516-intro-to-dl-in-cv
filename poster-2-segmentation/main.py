@@ -44,6 +44,15 @@ image, mask = ph2_train_dataset[1]
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
 
+image_tensor_path = 'Add_points/image_tensor.pt'
+mask_tensor_path = 'Add_points/mask_tensor.pt'
+torch.save(image, image_tensor_path) 
+torch.save(mask, mask_tensor_path)    
+
+image_tensor = torch.load(image_tensor_path)
+mask_tensor = torch.load(mask_tensor_path)
+
+
 assert len(np.unique(mask.numpy()[0])) == 2, "mask needs to have binary values (0,1)"
 
 # Data loaders
@@ -67,14 +76,9 @@ drive_val_loader = torch.utils.data.DataLoader(drive_val_dataset, batch_size=3, 
 drive_test_loader = torch.utils.data.DataLoader(drive_test_dataset, batch_size=3, shuffle=False)
 
 image, mask = drive_train_dataset[1]
+
 print('Image shape:', image.shape)
 print('Mask shape:', mask.shape)
-
-
-image_tensor_path = 'Add_points/image_tensor.pt'
-mask_tensor_path = 'Add_points/mask_tensor.pt'
-torch.save(image, image_tensor_path) 
-torch.save(mask, mask_tensor_path)    
 
 
 assert len(np.unique(mask.numpy()[0])) == 2, "mask needs to have binary values (0,1)"

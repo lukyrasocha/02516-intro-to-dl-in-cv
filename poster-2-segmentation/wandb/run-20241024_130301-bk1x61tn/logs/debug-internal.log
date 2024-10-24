@@ -1,0 +1,17 @@
+{"time":"2024-10-24T13:03:01.065530363+02:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-24T13:03:01.065541693+02:00","level":"INFO","msg":"created symlink","path":"/zhome/20/1/209339/02516-intro-to-dl-in-cv/poster-2-segmentation/wandb/run-20241024_130301-bk1x61tn/logs/debug-core.log"}
+{"time":"2024-10-24T13:03:01.177248186+02:00","level":"INFO","msg":"created new stream","id":"bk1x61tn"}
+{"time":"2024-10-24T13:03:01.177303765+02:00","level":"INFO","msg":"stream: started","id":"bk1x61tn"}
+{"time":"2024-10-24T13:03:01.177353471+02:00","level":"INFO","msg":"sender: started","stream_id":"bk1x61tn"}
+{"time":"2024-10-24T13:03:01.177337801+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bk1x61tn"}}
+{"time":"2024-10-24T13:03:01.177329469+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bk1x61tn"}}
+{"time":"2024-10-24T13:03:01.4848677+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-24T13:03:40.664458237+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-24T13:03:40.665007066+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-24T13:03:41.548183259+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-24T13:03:41.664821462+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history, summary, console logs","runtime_seconds":0.116554541}],"total_operations":1}}
+{"time":"2024-10-24T13:03:42.997345488+02:00","level":"INFO","msg":"stream: closing","id":"bk1x61tn"}
+{"time":"2024-10-24T13:03:42.997486574+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"bk1x61tn"}}
+{"time":"2024-10-24T13:03:42.997502559+02:00","level":"INFO","msg":"sender: closed","stream_id":"bk1x61tn"}
+{"time":"2024-10-24T13:03:42.997497887+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bk1x61tn"}}
+{"time":"2024-10-24T13:03:42.998570935+02:00","level":"INFO","msg":"stream: closed","id":"bk1x61tn"}
